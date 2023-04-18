@@ -110,7 +110,7 @@ do najważniejszej rzeczy, to znaczy do tworzenia obiektów. Trzeba było wpaś�
 szablony służą właśnie takim konstrukcjom. Konstrukcjom i konstruktorom. Tych różnych rodzajów 
 wind, a w przyszłości pasażerów, a może nawet i dyspozytorów.
 
-```
-:center:T *p = new T();
-```
+<div align="center">
+ T *p = new T(); 
+</div>
 
