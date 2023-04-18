@@ -85,7 +85,7 @@ Program był ćwiczeniem w języku C++. Mieliśmy dwa ważne zadania: przećwicz
 
 - *Dziedziczenie* to taka niewinna zabawa programistów, którzy wiedzą, co to jest klasa 
 abstrakcyjna. Co za okazja do sprawdzenia, czy wzorzec projektowy *strategia* jest 
-rzeczywiście "królową wszystkich wzorców" (pewnie że jest!).  
+rzeczywiście "królową wszystkich wzorców" (pewnie że jest!). 
 Ale kiedy się okazuje, że pasażerowie muszą coś wiedzieć o wszystkich windach,
 a winda o wszystkich pasażerach, którzy do niej weszli... kiedy trzeba umieścić obiekty
 klasy A w polach przynależnych klasie B, jednocześnie przypisując tej klasie B obiekty typu A...
@@ -107,4 +107,5 @@ do najważniejszej rzeczy, to znaczy do tworzenia obiektów. Trzeba było wpaś�
 szablony służą właśnie takim konstrukcjom. Konstrukcjom i konstruktorom. Tych różnych rodzajów 
 wind, a w przyszłości pasażerów, a może nawet i dyspozytorów.
 
-```T *p = new T();
+```T *p = new T();```
+
