@@ -43,9 +43,9 @@ sposób: losując windę.
 
 ### Winda klasyczna
 
-Mówi o sobie: *Jestem windą klasyczną, jeżdżę zawsze w tym samym kierunku do końca*
+Mówi o sobie: *Jestem windą klasyczną, jeżdżę zawsze w tym samym kierunku do końca*.
 I dodaje: 
-wezwana najpierw skończę swoją drogę, pasażerów odbiorę w drodze powrotnej
+wezwana najpierw skończę swoją drogę, pasażerów odbiorę w drodze powrotnej.
 
 
 ### Winda nowoczesna
@@ -74,3 +74,6 @@ Ale też może mieć pierwszeństwo przy wsiadaniu, co może znaczyć, że inni 
 muszą go widzieć i wiedzieć, że mogą wsiąść dopiero wtedy, gdy wejdzie do windy
 osoba uprzywilejowana.
 
+Dlatego piętro się przyda. Na razie jednak nie rozróżniamy pasażerów (ani np. wind
+bagażowych) i nie pozwalamy im obserwować innych osób na tym samym piętrze. Wiedzą tylko,
+czy zmieszczą się w windzie.
