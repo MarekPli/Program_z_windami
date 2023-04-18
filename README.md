@@ -56,7 +56,7 @@ a otrzyma od dyspozytora wezwanie, to od razu jedzie w kierunku właściwego pi�
 ### Winda pospieszna
 
 Nie wiadomo, czy nazwać ją windą supernowoczesną czy superstaroświecką. Jeśli do niej
-wsiądziemy, to już się nie zatrzymamy po drodze i dojedziemy do wskazanego piętra.
+wsiądziemy, to już się nie zatrzymamy po drodze i dojedziemy bezpośrednio do wskazanego piętra.
 
 Niestety, ta ostatnia winda, choć chwali się że *dowozi bez zbędnych przystanków*,
 w rzeczywistości zachowuje się jeszcze bardzo niestabilnie. 
@@ -111,6 +111,6 @@ szablony służą właśnie takim konstrukcjom. Konstrukcjom i konstruktorom. Ty
 wind, a w przyszłości pasażerów, a może nawet i dyspozytorów.
 
 ```
-T *p = new T();
+:center:T *p = new T();
 ```
 
