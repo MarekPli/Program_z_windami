@@ -83,16 +83,19 @@ czy zmieszczą się w windzie.
 Program był ćwiczeniem w języku C++. Mieliśmy dwa ważne zadania: przećwiczyć *dziedziczenie* i 
 *szablony*. I oczywiście były z tym trudności.
 
-- *Dziedziczenie* to taka niewinna zabawa programistów, którzy wiedzą, co to jest klasa 
-abstrakcyjna. Co za okazja do sprawdzenia, czy wzorzec projektowy *strategia* jest 
-rzeczywiście "królową wszystkich wzorców" (pewnie że jest!). 
+- Ze zwykłym programowaniem, bez tych zagdnień, nie zanosiło się na trudności. 
 Ale kiedy się okazuje, że pasażerowie muszą coś wiedzieć o wszystkich windach,
 a winda o wszystkich pasażerach, którzy do niej weszli... kiedy trzeba umieścić obiekty
 klasy A w polach przynależnych klasie B, jednocześnie przypisując tej klasie B obiekty typu A...
 Cóż, rozwiązanie się znalazło i nazywa się *deklaracją wstępną* (forward declaration). 
 Polega na deklarowaniu czegoś, czego nie ma, i to nie zawsze wiadomo czy w nagłówku
 czy w pliku cpp. Nawet kompilator nie do końca wie, jakie miejsce jest najwłaściwsze. 
-Nie mówiąc o tym, ile to kompilator ma zastrzeżeń przy budowaniu destruktorów wirtualnych.
+
+- *Dziedziczenie* to taka niewinna zabawa programistów, którzy wiedzą, co to jest klasa 
+abstrakcyjna. Co za okazja do sprawdzenia, czy wzorzec projektowy *strategia* jest 
+rzeczywiście "królową wszystkich wzorców" (pewnie że jest!). Ale można wiele powiedzieć
+o tym, ile to kompilator ma zastrzeżeń przy budowaniu destruktorów wirtualnych.
+Są przecież dziedziczone i pozwalają ratować się przed wyciekami pamięci klas pochodnych
 Zastrzega, że muszą być, a potem zastrzega, że powodują problemy których by bez nich nie było.
 
 - *Szablony*. Można westchnąć i powiedzieć: przecież szablony są podstawą posługiwania się
@@ -107,5 +110,7 @@ do najważniejszej rzeczy, to znaczy do tworzenia obiektów. Trzeba było wpaś�
 szablony służą właśnie takim konstrukcjom. Konstrukcjom i konstruktorom. Tych różnych rodzajów 
 wind, a w przyszłości pasażerów, a może nawet i dyspozytorów.
 
-```T *p = new T();```
+```
+T *p = new T();
+```
 
