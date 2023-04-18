@@ -77,3 +77,34 @@ osoba uprzywilejowana.
 Dlatego piętro się przyda. Na razie jednak nie rozróżniamy pasażerów (ani np. wind
 bagażowych) i nie pozwalamy im obserwować innych osób na tym samym piętrze. Wiedzą tylko,
 czy zmieszczą się w windzie.
+
+## Paradoksy programu
+
+Program był ćwiczeniem w języku C++. Mieliśmy dwa ważne zadania: przećwiczyć *dziedziczenie* i 
+*szablony*. I oczywiście były z tym trudności.
+
+- *Dziedziczenie* to taka niewinna zabawa programistów, którzy wiedzą, co to jest klasa 
+abstrakcyjna. Co za okazja do sprawdzenia, czy wzorzec projektowy *strategia* jest 
+rzeczywiście "królową wszystkich wzorców" (pewnie że jest!).  
+Ale kiedy się okazuje, że pasażerowie muszą coś wiedzieć o wszystkich windach,
+a winda o wszystkich pasażerach, którzy do niej weszli... kiedy trzeba umieścić obiekty
+klasy A w polach przynależnych klasie B, jednocześnie przypisując tej klasie B obiekty typu A...
+Cóż, rozwiązanie się znalazło i nazywa się *deklaracją wstępną* (forward declaration). 
+Polega na deklarowaniu czegoś, czego nie ma, i to nie zawsze wiadomo czy w nagłówku
+czy w pliku cpp. Nawet kompilator nie do końca wie, jakie miejsce jest najwłaściwsze. 
+Nie mówiąc o tym, ile to kompilator ma zastrzeżeń przy budowaniu destruktorów wirtualnych.
+Zastrzega, że muszą być, a potem zastrzega, że powodują problemy których by bez nich nie było.
+
+- *Szablony*. Można westchnąć i powiedzieć: przecież szablony są podstawą posługiwania się
+naszą ulubioną biblioteką STL, zatem użycie czegokolwiek z tej biblioteki jest już spełnieniem
+wymogu "użyj szablonu". No, nie tak do końca. Co prawda sposób posługiwania się tą biblioteką
+pozwala z dumą patrzeć w lustro ("jestem mistrzem!"), a różne tajemnicze operacje z użyciem
+dwukropka dowodzą, że język C++ jest coraz bardziej podobny do ukochanego Pythona. 
+Lecz nie na tym to polega. Nie na tym też polega użycie szablonu, by zapełniać program różnymi 
+wskaźnikami (i potem martwić się, czy usuniemy z pamięci te wszystkie anonimowe obiekty).
+Tutaj udało się wreszcie, zgodnie z wszelakim książkowym przeznaczeniem, zastosować szablon
+do najważniejszej rzeczy, to znaczy do tworzenia obiektów. Trzeba było wpaść na to, że 
+szablony służą właśnie takim konstrukcjom. Konstrukcjom i konstruktorom. Tych różnych rodzajów 
+wind, a w przyszłości pasażerów, a może nawet i dyspozytorów.
+
+```T *p = new T();
