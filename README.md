@@ -96,7 +96,9 @@ abstrakcyjna. Co za okazja do sprawdzenia, czy wzorzec projektowy *strategia* je
 rzeczywiście "królową wszystkich wzorców" (pewnie że jest!). Ale można wiele powiedzieć
 o tym, ile to kompilator ma zastrzeżeń przy budowaniu destruktorów wirtualnych.
 Są przecież dziedziczone i pozwalają ratować się przed wyciekami pamięci klas pochodnych
-Zastrzega, że muszą być, a potem zastrzega, że powodują problemy których by bez nich nie było.
+Zastrzega, że muszą być, a potem zastrzega, że powodują problemy których by bez nich nie było. 
+Ale czego się nie robi, jeżeli uprzemy się, by oprócz/obok dziedziczenia zafundować
+sobie autentyczny *polimorfizm*...
 
 - *Szablony*. Można westchnąć i powiedzieć: przecież szablony są podstawą posługiwania się
 naszą ulubioną biblioteką STL, zatem użycie czegokolwiek z tej biblioteki jest już spełnieniem
